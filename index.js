@@ -92,3 +92,9 @@ findUser;
 // After
 findUserByNameOrEmail;
 setUserLoggedInTrue;
+
+// Use shorter version
+
+getUserFromDataBase;
+
+getUserCredentials;
