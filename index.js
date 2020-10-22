@@ -83,3 +83,12 @@ getUserData;
 getUserInfo;
 
 getUserPosts;
+
+// Favor descriptive over concise
+
+// Before
+findUser;
+
+// After
+findUserByNameOrEmail;
+setUserLoggedInTrue;
