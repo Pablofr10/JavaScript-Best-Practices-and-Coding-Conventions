@@ -24,14 +24,15 @@ exampleArray.forEach((arr1) => {
   });
 });
 
+//AFTER
+const retriveFinalValue = (element) => {
+  if (Array.isArray(element)) {
+    return retriveFinalValue(element[0]);
+  }
 
-//AFTER 
-const retriveFinalValue (element) => {
-    if (Array.isArray(element)) {
-        return retriveFinalValue(element[0])
-    }
-
-    return element;
-}
+  return element;
+};
 
 retriveFinalValue(exampleArray);
+
+// Stop writing comments - Code must speak for itself!
