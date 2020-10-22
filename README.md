@@ -1,6 +1,6 @@
 # JavaScript Best Practices and Coding Conventions
 
-## Some JavaScript practices for keep your code clean.
+## Some JavaScript practices for keep your code clean look the changes in history.
 
 - Magic Numbers
 - Deep nesting
