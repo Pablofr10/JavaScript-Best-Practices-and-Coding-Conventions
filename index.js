@@ -71,3 +71,9 @@ const getUserCredentials = (user) => {
 const getUserCredentials = (user) => {
   const { name, surname, password, email } = user;
 };
+
+// Variable Name
+const camelCase = '';
+let thisIsARandomCamelCase;
+let exampleFunctionName;
+let getUserCredentials;
