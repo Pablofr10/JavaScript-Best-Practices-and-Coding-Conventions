@@ -151,3 +151,8 @@ class tank = {
 class Task = {
     //...
 }
+
+// Capitalize constant values
+
+const SECOND_IN_A_DAY = 86400;
+const HOURS_IN_DAY = 24; and const USER_AGE = 30;
