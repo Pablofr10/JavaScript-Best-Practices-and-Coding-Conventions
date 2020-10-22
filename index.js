@@ -1,11 +1,11 @@
 // Magic Numbers
 
-// BEFORE
+// Before
 for (let i = 0; i < 86400; i++) {
   // ...
 }
 
-//AFTER
+// After
 const SECOUNDS_IN_A_DAY = 86400;
 for (let i = 0; i < SECOUNDS_IN_A_DAY; i++) {
   // ...
@@ -13,7 +13,7 @@ for (let i = 0; i < SECOUNDS_IN_A_DAY; i++) {
 
 // Deep nesting
 
-// BEFORE
+// Before
 const exampleArray = [[[['value']]]];
 
 exampleArray.forEach((arr1) => {
@@ -24,7 +24,7 @@ exampleArray.forEach((arr1) => {
   });
 });
 
-//AFTER
+// After
 const retriveFinalValue = (element) => {
   if (Array.isArray(element)) {
     return retriveFinalValue(element[0]);
@@ -39,7 +39,7 @@ retriveFinalValue(exampleArray);
 
 // Avoid large functions
 
-// BEFORE
+// Before
 const addMultiplySubstract = (a, b, c) => {
   // addition
   const addition = a + b + c;
@@ -52,7 +52,22 @@ const addMultiplySubstract = (a, b, c) => {
   return `${addition} ${multiplication} ${subraction}`;
 };
 
-// AFTER
+// After
 const add = (a, b, c) => a + b + c;
 const multiply = (a, b, c) => a * b * c;
 const subtract = (a, b, c) => a - b - c;
+
+// Code Repetition
+
+// Before
+const getUserCredentials = (user) => {
+  const name = user.name;
+  const surname = user.surname;
+  const password = user.password;
+  const email = user.email;
+};
+
+// After
+const getUserCredentials = (user) => {
+  const { name, surname, password, email } = user;
+};
