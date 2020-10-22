@@ -127,3 +127,15 @@ car.sedan, car.solid, car.green, car.airbag;
 
 // After
 car.isSedan, car.isSolid, car.isGreen, car.hasAirbag;
+
+// Use nouns for classNames
+
+// Before
+class MakeCar = {
+    // ..
+}
+
+// After
+class Car = {
+    // ..
+}
