@@ -155,4 +155,19 @@ class Task = {
 // Capitalize constant values
 
 const SECOND_IN_A_DAY = 86400;
-const HOURS_IN_DAY = 24; and const USER_AGE = 30;
+const HOURS_IN_DAY = 24; 
+const USER_AGE = 30;
+
+const user = foundUser;
+const today = new Date();
+
+
+// Avoid one-letter variable names
+
+// Before
+const q = () => {}
+const d = new Date();
+
+// After
+const query = () => {}
+const newDate = () => new Date();
