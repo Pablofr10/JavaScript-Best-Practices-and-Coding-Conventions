@@ -139,3 +139,15 @@ class MakeCar = {
 class Car = {
     // ..
 }
+
+// Use PascalCase for className
+
+// Before
+class tank = {
+    //...
+}
+
+// After
+class Task = {
+    //...
+}
