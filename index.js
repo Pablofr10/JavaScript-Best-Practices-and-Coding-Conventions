@@ -115,3 +115,15 @@ retrieveUsers; // get
 getQuestions; // get
 getUsers; // get
 getUsers; // get
+
+// Make booleans that read well in if-then statements
+let car = {};
+
+sedan, solid, green, airbag;
+isSedan, isSolid, isGreen, hasAirbag;
+
+// Before
+car.sedan, car.solid, car.green, car.airbag;
+
+// After
+car.isSedan, car.isSolid, car.isGreen, car.hasAirbag;
