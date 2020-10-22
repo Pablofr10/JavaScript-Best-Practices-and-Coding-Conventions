@@ -77,3 +77,9 @@ const camelCase = '';
 let thisIsARandomCamelCase;
 let exampleFunctionName;
 let getUserCredentials;
+
+// Meaninfull names
+getUserData;
+getUserInfo;
+
+getUserPosts;
