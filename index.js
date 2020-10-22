@@ -98,3 +98,20 @@ setUserLoggedInTrue;
 getUserFromDataBase;
 
 getUserCredentials;
+
+// Use consistent verbs per concept
+
+// Functions will usually create, read, update or delete something
+
+// Before
+getQuestions; // get
+returnUsers; // get
+retrieveUsers; // get
+
+// Create
+// Delete
+
+// After
+getQuestions; // get
+getUsers; // get
+getUsers; // get
